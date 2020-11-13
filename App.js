@@ -60,12 +60,11 @@ function bell9() {
 
 window.addEventListener("keydown", function(e) {
     if (e.key === 'Q' || e.key === 'q') {
-       bell1();
-    const x = document.createElement("STYLE");
-    const t = document.createTextNode("#a {height: 95px; width: 95px; margin: 12.5px}");
-    x.appendChild(t);
-    document.head.appendChild(x);
-        
+        bell1();
+        const x = document.createElement("STYLE");
+        const t = document.createTextNode("#a {height: 95px; width: 95px; margin: 12.5px;}");
+        x.appendChild(t);
+        document.head.appendChild(x);     
     }
     if (e.key === 'W' || e.key === 'w') {
         bell2();
