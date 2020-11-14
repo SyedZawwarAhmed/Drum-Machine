@@ -32,8 +32,6 @@ body {
     align-items: center;
 }
 
-
-
 .drum-pad {
     color: rgb(158, 23, 39);
     width: 100px;
@@ -46,63 +44,8 @@ body {
     outline: none;
 }
 
-#a:active {
-    height: 95px;
-    width: 95px;
-    margin-left: 12.5px;
-    margin-right: 12.5px;
-}
-
-#b:active {
-    height: 95px;
-    width: 95px;
-    margin-left: 12.5px;
-    margin-right: 12.5px;
-}
-
-#c:active {
-    height: 95px;
-    width: 95px;
-    margin-left: 12.5px;
-    margin-right: 12.5px;
-}
-
-#d:active {
-    height: 95px;
-    width: 95px;
-    margin-left: 12.5px;
-    margin-right: 12.5px;
-}
-
-#e:active {
-    height: 95px;
-    width: 95px;
-    margin-left: 12.5px;
-    margin-right: 12.5px;
-}
-
-#f:active {
-    height: 95px;
-    width: 95px;
-    margin-left: 12.5px;
-    margin-right: 12.5px;
-}
-
-#g:active {
-    height: 95px;
-    width: 95px;
-    margin-left: 12.5px;
-    margin-right: 12.5px;
-}
-
-#h:active {
-    height: 95px;
-    width: 95px;
-    margin-left: 12.5px;
-    margin-right: 12.5px;
-}
-
-#i:active {
+#a:active, #b:active, #c:active, #d:active, #e:active, #f:active, #g:active, #h:active, #i:active 
+{
     height: 95px;
     width: 95px;
     margin-left: 12.5px;
